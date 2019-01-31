@@ -12,7 +12,7 @@ export default class Header extends Component {
     return (
       <header className="Header">
         <div className="headerBackground">
-          <img ref="background" src={ HeaderBackground } alt=""/>
+          <img src={ HeaderBackground } alt="main landing page background showcasing download links and an iPhone being held"/>
         </div>
         <div className="notifyContainer">
           <div className="notifyLogo">

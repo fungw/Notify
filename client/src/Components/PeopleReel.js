@@ -12,7 +12,7 @@ export default class Social  extends Component {
   }
 
   render() {
-    const context = require.context('../Images/people', true, /\.(jpeg)$/);
+    const context = require.context('../Images/people', true, /\.(png)$/);
     let files = [];
     const names = textData['Social']['names'];
 
@@ -29,7 +29,7 @@ export default class Social  extends Component {
             files.map((item, index) => {
               return (
                 <div className="container" key={ index }>
-                  <img alt="" key={ index } src={ item }></img>
+                  <img alt="a list of the notable people involved" key={ index } src={ item }></img>
                   <div className="overlay" data-key={ index } onMouseOver={ this.setPerson.bind(this) } onMouseOut= { this.reset.bind(this) }></div>
                 </div>
               )
