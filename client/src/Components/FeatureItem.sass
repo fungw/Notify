@@ -1,0 +1,39 @@
+@import 'src/master'
+
+$circleSize: 5vw
+
+.FeatureItem
+  display: block
+  justify-content: center
+  margin: 25px 0px
+
+  > div.FeatureIcon
+    background: $primaryGreen
+    margin: 10px auto
+    height: $circleSize
+    padding: 10px
+    width: $circleSize
+    -moz-border-radius: 50%
+    -webkit-border-radius: 50%
+
+    > svg
+      display: block
+      height: inherit
+      margin: auto
+      width: inherit
+  
+  > h3
+    font-family: $montserrat
+    font-weight: $montserratBold
+
+  > p
+    font-family: $montserrat
+    font-weight: $montserratLight
+
+@media (min-width: 1024px)
+  .FeatureItem
+    display: flex
+    flex-direction: column
+
+    > p
+      padding: 0px 50px

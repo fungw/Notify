@@ -1,0 +1,25 @@
+{
+  "Feature": {
+    "heading": [ "Editable Theme", "Flat Design", "Reach Your Audience" ],
+    "loremIpsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla."
+  },
+  "Footer": {
+    "linkText": [ "Contact", "Download", "Press", "Email", "Support", "Privacy Policy" ]
+  },
+  "Header": {
+    "description": "A great new free psd theme to showcase your new application"
+  },
+  "Media": {
+    "loremIpsum": "Lorem ipsum dolor sit amit, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.",
+    "title": "Get Notified of Any Updates!",
+    "placeholder": "Email Address",
+    "submitText": "Notify",
+    "vimeoId": "288344114"
+  },
+  "Social": {
+    "getInTouch": "Say Hi & Get in Touch",
+    "loremIpsum": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut.'",
+    "loremIpsumCompact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.",
+    "names": [ "Kiera Mendoza", "Kiley Warren", "Akira Weber", "Derick Bond", "Aliya Payne", "Jane Hunt", "Destinee Williams", "Trevor Schaefer", "Carleigh Santos", "Shiloh Huerta", "Wayne Benjamin", "Miranda Golden", "Kaila Lester", "Elizabeth Matthews", "Jordan Lyons", "Micaela Best", "Lawson Kemp", "Paris Velasquez", "Chelsea West", "Dominic Herman", "Ellie Cervantes"]
+  }
+}

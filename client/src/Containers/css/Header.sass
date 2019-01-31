@@ -1,0 +1,78 @@
+@import 'src/master'
+@import url('https://fonts.googleapis.com/css?family=Pacifico')
+
+.Header
+  display: flex
+  height: 30%
+  position: relative
+
+  > div
+    overflow: hidden
+    width: 100%
+
+    > img
+      border-top: 10px solid $primaryGreen
+      height: 100%
+      margin-left: -250px
+      width: 750px
+  
+  > div.notifyContainer
+    left: 15%
+    position: absolute
+    text-align: left
+    top: 15%
+    width: 35%
+
+    > div.notifyLogo
+      color: white
+      font-family: 'Pacifico', cursive
+      font-size: 35px
+      width: 100%
+
+      > span.notifyDot
+        color: $primaryGreen
+
+    > div.notifyDescription
+      color: white
+      font-family: $montserrat
+      font-weight: $montserratBold
+      line-height: 20px
+
+    > div.notifyDownloads > div.ButtonSet
+      justify-content: initial
+      padding: 0px
+
+      div.brandIcon
+        background: #000
+        margin: 3px 3px
+        height: 3vw
+        opacity: 0.7
+        padding: 10px
+        width: 3vw
+        -moz-border-radius: 50%
+        -webkit-border-radius: 50%
+
+        &:hover
+          background: $primaryGreen
+          color: white
+
+@media (max-width: 350px)
+  .Header > div > img
+    margin-left: -250px
+
+@media (min-width: 370px)
+  .Header > div > img
+    margin-left: -200px
+
+@media (min-width: 500px)
+  .Header > div > img
+    margin-left: initial
+    width: 100%
+
+@media (min-width: 1024px)
+  .Header > div.notifyContainer 
+    > div.notifyLogo
+      font-size: 70px
+
+    > div.notifyDownloads > div.ButtonSet > div.brandIcon
+      margin: 5px 10px

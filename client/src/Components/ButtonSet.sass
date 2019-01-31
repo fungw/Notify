@@ -1,0 +1,21 @@
+@import 'src/master'
+  
+$brandIconDimensions: 3vw
+
+.ButtonSet
+  display: flex
+  flex-direction: row
+  justify-content: center
+  padding: 10px 0px
+  width: 100%
+
+  > div.brandIcon
+    color: $brandIconGrey
+    padding: 0px 10px
+
+    > svg
+      height: $brandIconDimensions
+      width: $brandIconDimensions
+
+    &:hover
+      color: $primaryGreen
