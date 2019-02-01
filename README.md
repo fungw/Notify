@@ -25,5 +25,3 @@ yarn dev
 
 ## Deployment
 App deployed on [heroku](http://wfung-kax.herokuapp.com/).
-
--Wesley Fung
